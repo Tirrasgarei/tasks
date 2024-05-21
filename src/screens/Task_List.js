@@ -5,9 +5,9 @@ import today_Image from "../../assets/imgs/today.jpg"
 export default class TaskList extends Component{
     render(){
         return(
-            <View style={styles.container} style={styles.background}>
+            <View style={styles.container}>
 
-                <ImageBackground source={today_Image}>
+                <ImageBackground source={today_Image} style={styles.background}>
 
                 </ImageBackground>
                 <View style={styles.taskList}>
